@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://samuelpclarke.com/realimpact/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="./SoundCam_files/js"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Z53Z9PX0CL');
+    </script>
+    <title>SoundCam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./SoundCam_files/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./SoundCam_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./SoundCam_files/all.css" crossorigin="anonymous">
+</head>
+
+<body class="dark">
+    <div id="header">
+        <a class="header-title" href="https://samuelpclarke.com/realimpact/">RealImpact</a>
+        <div class="header-links">
+            <a class="header-link" href="https://samuelpclarke.com/realimpact/#abstract">ABSTRACT</a>
+            <a class="header-link" href="https://samuelpclarke.com/realimpact/#demo">DEMO</a>
+            <a class="header-link" href="https://samuelpclarke.com/realimpact/#data-collection">RECORDING SETUP</a>
+            <a class="header-link" href="https://samuelpclarke.com/realimpact/#video">VIDEO</a>
+            <a class="header-link" href="https://samuelpclarke.com/realimpact/#bibtex">BIBTEX</a>
+        </div>
+        <div id="color-mode-wrap">
+            <div id="color-light" class="color-mode">
+                <i class="color-mode-icon fa-regular fa-sun"></i>
+                <span>Light</span>
+            </div>
+            <div id="color-dark" class="color-mode">
+                <i class="color-mode-icon fa-regular fa-moon"></i>
+                <span>Dark</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>RealImpact: A Dataset of Impact Sound Fields for Real Objects</h1>
+        <h3>CVPR 2023 (Highlight)</h3>
+        <div class="authors">
+            <div class="author">
+                <div class="author-name">
+                    <a href="https://samuelpclarke.com/">Samuel Clarke</a>
+                </div>
+                <div class="author-uni">Stanford</div>
+            </div>
+            <div class="author">
+                <div class="author-name">
+                    <a href="https://ai.stanford.edu/~rhgao/">Ruohan Gao</a>
+                </div>
+                <div class="author-uni">Stanford</div>
+            </div>
+            <div class="author">
+                <div class="author-name">
+                    <a href="https://www.linkedin.com/in/mason-wang-3b5288104/">Mason Wang</a>
+                </div>
+                <div class="author-uni">Stanford</div>
+            </div>
+            <div class="author">
+                <div class="author-name">
+                    <a href="https://ccrma.stanford.edu/~mrau/">Mark Rau</a>
+                </div>
+                <div class="author-uni">Stanford</div>
+            </div>
+
+            <div class="author">
+                <div class="author-name">
+                    <a href="https://www.linkedin.com/in/julia-xu-709167127">Julia Xu</a>
+                </div>
+                <div class="author-uni">Stanford</div>
+            </div>
+            <div class="author">
+                <div class="author-name">
+                    <a href="http://juiwang.com/">Jui-Hsien Wang</a>
+                </div>
+                <div class="author-uni">Adobe</div>
+            </div>
+            <div class="author">
+                <div class="author-name">
+                    <a href="https://graphics.stanford.edu/~djames/">Doug James</a>
+                </div>
+                <div class="author-uni">Stanford</div>
+            </div>
+            <div class="author">
+                <div class="author-name">
+                    <a href="https://jiajunwu.com/">Jiajun Wu</a>
+                </div>
+                <div class="author-uni">Stanford</div>
+            </div>
+        </div>
+        <div class="links">
+            <div class="link">
+                <a href="https://arxiv.org/pdf/2306.09944.pdf" target="_blank" rel="noopener noreferrer">
+                <i class="link-icon fa-solid fa-file-lines"></i>
+                <div class="link-text">paper</div>
+                </a>
+            </div>
+            <div class="link">
+                <a href="https://github.com/samuel-clarke/RealImpact" target="_blank" rel="noopener noreferrer">
+                <i class="link-icon fa-brands fa-github"></i>
+                <div class="link-text">code</div>
+                </a>
+            </div>
+            <!-- <div class="link">
+                <a href="RealImpact_appendix.pdf" target="_blank" rel="noopener noreferrer">
+                <i class="link-icon fa-solid fa-file-lines"></i>
+                <div class="link-text">appendix</div>
+                </a>
+            </div> -->
+        </div>
+        <div class="section" id="abstract">
+            <h2 class="section-title">Abstract</h2>
+            <p class="abstract-text">
+                Objects make unique sounds under different perturbations, environment conditions, and poses relative to
+                the listener. While prior works have modeled impact sounds and sound propagation in simulation, we lack
+                a standard dataset of impact sound fields of real objects for audio-visual learning and calibration of
+                the sim-to-real gap.
+                <span class="p-strong">We present RealImpact, a large-scale dataset of real
+                    object impact
+                    sounds
+                    recorded under
+                    controlled conditions.</span>
+                RealImpact contains <span class="p-strong">150,000</span> recordings of impact sounds of <span class="p-strong">50 everyday
+                    objects</span> with <span class="p-strong">detailed
+                    annotations</span>, including their impact locations, microphone locations, contact force profiles,
+                material
+                labels, and RGBD images. We make preliminary attempts to use our dataset as a reference to current
+                simulation methods for estimating object impact sounds that match the real world. Moreover, we
+                demonstrate the usefulness of our dataset as a testbed for acoustic and audio-visual learning via the
+                evaluation of two benchmark tasks, including listener location classification and visual acoustic
+                matching.
+            </p>
+        </div>
+        <div class="section" id="data-collection">
+            <h2 class="section-title">Recording Setup</h2>
+            <div class="img-container-right">
+                <img height="300" class="gif" src="./SoundCam_files/hammer_swing_large.gif">
+            </div>
+            <p class="abstract-text">
+                We use custom mechanism to repeatably automate flicking an impact hammer at the object with minimal noise (above).
+                We strike the object repeatedly at the same vertex, moving a stack of 15 measurement microphones on a gantry between strikes to 10 azimuth angles and 4 distances per angle, for a total of 600 distinct microphone
+                locations in the sound field of the object's impact sound (below).
+            </p>
+            <div class="img-container">
+                <img height="450" class="gif" src="./SoundCam_files/gantry100x_clean_medium.gif">
+                <div class="bottom-right">100x</div>
+            </div>
+        </div>
+        <div class="section" id="video">
+            <h2 class="section-title">Video</h2>
+            <iframe width="560" height="315" src="./SoundCam_files/OeZMeze-oIs.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" class="video"></iframe>
+        </div>
+        
+        <div class="section" id="bibtex">
+            <h2 class="section-title">BibTex</h2>
+            <pre id="citation">@inproceedings{clarke2023realimpact,
+    title={RealImpact: A Dataset of Impact Sound Fields for Real Objects},
+    author={Samuel Clarke and Ruohan Gao and Mason Wang and Mark Rau and Julia Xu and Jui-Hsien Wang and Doug L. James and Jiajun Wu},
+    booktitle={Proceedings of the IEEE International Conference on Computer Vision and Pattern Recognition},
+    year={2023}
+}</pre>
+        </div>
+        <div id="footer">
+            <div class="footer-text">Template created by <a href="https://github.com/ryan-d-williams" class="template-creator">Ryan Williams</a></div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("color-mode-wrap").addEventListener("click", () => {
+            document.body.classList.toggle("light");
+            document.body.classList.toggle("dark");
+        })
+
+        const img_ids = [0, 1, 2, 3, 4, 5]
+        const hover_areas = [{
+            xmin: 35,
+            xmax: 50,
+            ymin: 50,
+            ymax: 60,
+            img_id: 1,
+            audio_label: "X: -56.3cm  | Y: 4.3cm | Z: -39.0cm"
+        }, {
+            xmin: 55,
+            xmax: 65,
+            ymin: 1,
+            ymax: 10,
+            img_id: 2,
+            audio_label: "X: -17.1cm | Y: 121.9cm | Z: 91.0cm"
+        }, {
+            xmin: 60,
+            xmax: 70,
+            ymin: 45,
+            ymax: 55,
+            img_id: 3,
+            audio_label: "X: 25.6cm | Y: 120.4cm | Z: -39.0cm"
+        }, {
+            xmin: 32,
+            xmax: 42,
+            ymin: 17,
+            ymax: 30,
+            img_id: 4,
+            audio_label: "X: -82.8cm | Y: 34.7cm | Z: 52.0cm"
+        }, {
+            xmin: 50,
+            xmax: 55,
+            ymin: 20,
+            ymax: 30,
+            img_id: 5,
+            audio_label: "X: 15.3cm | Y: 17.7cm | Z: 65.0cm"
+        }];
+        let display_img = hover_areas[0].img_id;
+        let audio_label = "";
+
+        const getHoverArea = (e) => {
+            let rect = e.target.getBoundingClientRect();
+            let x = (e.clientX - rect.left) / rect.width * 100;
+            let y = (e.clientY - rect.top) / rect.height * 100;
+
+            let selected_area = 0;
+            audio_label = "";
+
+            hover_areas.forEach(hover_area => {
+                if (x >= hover_area.xmin && x <= hover_area.xmax && y >= hover_area.ymin && y <= hover_area.ymax) {
+                    selected_area = hover_area.img_id;
+                    audio_label = hover_area.audio_label;
+                }
+            });
+
+            return selected_area;
+        }
+
+        const hoverfn = (e) => {
+            let selected_area = getHoverArea(e);
+
+            if (selected_area !== display_img) {
+                img_ids.forEach(img_id => {
+                    document.getElementById(`demo-img-${img_id}`).style.display = "none";
+                })
+                document.getElementById(`demo-img-${selected_area}`).style.display = "inline-block";
+                document.getElementById("demo-label").innerText = audio_label;
+
+                display_img = selected_area;
+
+                if (selected_area > 0) {
+                    document.body.style.cursor = "pointer";
+                } else {
+                    document.body.style.cursor = "auto";
+                }
+            }
+        }
+
+        const clickfn = (e) => {
+            let selected_area = getHoverArea(e);
+
+            if (selected_area > 0) {
+                document.getElementById(`audio-${selected_area}`).play();
+            }
+        }
+
+        img_ids.forEach(img_id => {
+            document.getElementById(`demo-img-${img_id}`).addEventListener('mousemove', hoverfn);
+            document.getElementById(`demo-img-${img_id}`).addEventListener('click', clickfn);
+        });
+
+    </script>
+
+
+</body></html>

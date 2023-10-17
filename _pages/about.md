@@ -21,10 +21,11 @@ social: true  # includes social icons at the bottom of the page
 
 I am a master's student at Stanford University in the [Stanford Vision and Learning Lab](https://svl.stanford.edu/). I am advised by Professor [Jiajun Wu](https://jiajunwu.com/). My work is at the intersection of audio, machine learning, and signal processing. 
 
-Recently, my work has been on room acoustics and spatial audio. I have a B.S. in Computer Science with a Specialization in Machine Learning, and a B.A. in Mathematics, from the University of Chicago, where I graduated Summa Cum Laude.
+I have a B.S. in Computer Science with a Specialization in Machine Learning, and a B.A. in Mathematics, from the University of Chicago, where I graduated Summa Cum Laude.
 
+Recently, my work has been on virtualizing real auditory scenes and acoustic spaces. Imagine being able to capture a video of a fireworks show, and then later being able to step inside the scene, walk around, and hear the explosions in the sky above you. Imagine being able to virtually capture a concert, so that afterwards you are able to listen to the concert while walking around the concert hall, and approach individual instruments. These are my goals.
 
- I am looking for PhD programs to apply to!
+I am currently applying to PhD programs!
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 

@@ -21,9 +21,11 @@ social: true  # includes social icons at the bottom of the page
 
 I am a master's student at Stanford University in the [Stanford Vision and Learning Lab](https://svl.stanford.edu/). I am advised by Professor [Jiajun Wu](https://jiajunwu.com/). My work is at the intersection of audio, machine learning, and signal processing. 
 
-I have a B.S. in Computer Science with a Specialization in Machine Learning, and a B.A. in Mathematics, from the University of Chicago, where I graduated Summa Cum Laude.
+I have a B.S. in Computer Science with a Specialization in Machine Learning, and a B.A. in Mathematics, from the University of Chicago, where I graduated Summa Cum Laude. I am working on a master's degree in Electrical Engineering at Stanford University.
 
 Recently, my work has been on virtualizing real auditory scenes and acoustic spaces. Imagine being able to capture a video of a fireworks show, and then later being able to step inside the scene, walk around, and hear the explosions in the sky above you. Imagine being able to virtually capture a concert, so that afterwards you are able to listen to the concert while walking around the concert hall, and approach individual instruments. These are my goals.
+
+I think there is a lot of work to be done in making audio simulators fast and differentiable, allowing them to be fit to a real scene through gradient-based optimization. This is another goal of mine.
 
 I am currently applying to PhD programs!
 

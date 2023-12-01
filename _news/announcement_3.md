@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-09-21 07:59:00-0400
+date: 2023-11-29 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-_SoundCam_ is accepted to _NeurIPS Datasets and Benchmarks 2023_ !
+First Author submission to to _CVPR 2024_ !
